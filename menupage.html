@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Bean Brew Coffee/menupage</title>
+    <style type="text/tailwindcss">
+        @theme {
+            --font-display: 'Open Sans';
+        }
+    </style>
+</head>
+<body class="bg-[#fffcff]">
+    <div>
+        <nav class="pr-5 pl-5 flex items-center justify-between">
+            <div class="">
+                <img src="back.svg" class="w-full h-5 Start">
+            </div>
+
+            <div class="h-20 bg-white p-5 items-center justify-center">
+                <div class="text-xl font-bold items-center justify-center">New Order</div>
+                <div class="text-xs items-center justify-center opacity-60">#2491 - Tab 4</div>
+            </div>
+
+            <div class="">
+                <img src="menu2.svg" class="w-full h-5 Start">
+            </div>
+        </nav>
+    </div>
+
+    <div class="px-5">
+        <div class="relative">
+            <div class="absolute inset-y-0 left-3 flex items-center pointer-events-none">
+                <img src="search.svg" class="w-5 h-5 opacity-50">
+            </div>
+
+            <input 
+                type="text" 
+                placeholder="Search..." 
+                class="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-[#C47BE4]">
+        </div>
+    </div>
+
+    <div class="p-5 flex whitespace-nowrap overflow-x-auto gap-3 items-center">
+        <div class="rounded-lg bg-[#7132CA] shadow-sm w-36 h-9 flex shrink-0 text-center text-white items-center justify-center">
+            <img src="mug.svg" class="w-5 h-5 brighness-0 invert mr-3">
+            Expresso</div>
+        <div class="rounded-lg bg-white shadow-sm w-36 h-7 flex shrink-0 text-center items-center justify-center">
+            <img src="cold.svg" class="w-5 h-5 brighness-0 mr-3">
+            Cold Brew</div>
+        <div class="rounded-lg bg-white shadow-sm w-20 h-7 flex shrink-0 text-center items-center justify-center">
+            <img src="tea.svg" class="w-5 h-5 brighness-0 mr-3">
+            Tea</div>
+    </div>
+
+    <div class="grid grid-cols-2 gap-4 p-5 pb-40">
+        <div class="w-45 bg-white rounded-2xl shadow-sm overflow-hidden">
+            <div class="relative">
+                <img src="coffee.jpg" class="w-full h-40 object-cover" />
+
+                <div class="absolute bottom-3 left-3 bg-black/50 text-white text-xs font-semibold px-3 py-1 rounded-lg">
+                    LAT
+                </div>
+            </div>
+
+            <div class="p-4">
+                <div class="text-xl font-bold text-gray-900">Caffe Latte</div>
+                <div class="text-sm text-gray-500 mt-1">Whole Milk</div>
+
+                <div class="flex items-center justify-between mt-4">
+                    <div class="text-[#7132CA] text-xl font-bold">Rp4.50</div>
+
+                    <button class="w-10 h-10 flex items-center justify-center rounded-full bg-gray-100">
+                        <span class="text-2xl text-[#7132CA]">+</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-45 bg-white rounded-2xl shadow-sm overflow-hidden">
+            <div class="relative">
+                <img src="cappucino.jpg" class="w-full h-40 object-cover" />
+
+                <div class="absolute bottom-3 left-3 bg-black/50 text-white text-xs font-semibold px-3 py-1 rounded-lg">
+                    CAP
+                </div>
+            </div>
+
+            <div class="p-4">
+                <div class="text-xl font-bold text-gray-900">Cappucino</div>
+                <div class="text-sm text-gray-500 mt-1">Oat Milk</div>
+
+                <div class="flex items-center justify-between mt-4">
+                    <div class="text-[#7132CA] text-xl font-bold">Rp4.10</div>
+
+                    <button class="w-10 h-10 flex items-center justify-center rounded-full bg-gray-100">
+                        <span class="text-2xl text-[#7132CA]">+</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-45 bg-white rounded-2xl shadow-sm overflow-hidden">
+            <div class="relative">
+                <img src="americano.jpg" class="w-full h-40 object-cover" />
+
+                <div class="absolute bottom-3 left-3 bg-black/50 text-white text-xs font-semibold px-3 py-1 rounded-lg">
+                    AMR
+                </div>
+            </div>
+
+            <div class="p-4">
+                <div class="text-xl font-bold text-gray-900">Americano</div>
+                <div class="text-sm text-gray-500 mt-1">No Sugar</div>
+
+                <div class="flex items-center justify-between mt-4">
+                    <div class="text-[#7132CA] text-xl font-bold">Rp3.60</div>
+
+                    <button class="w-10 h-10 flex items-center justify-center rounded-full bg-gray-100">
+                        <span class="text-2xl text-[#7132CA]">+</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-45 bg-white rounded-2xl shadow-sm overflow-hidden">
+            <div class="relative">
+                <img src="tea.jpg" class="w-full h-40 object-cover" />
+
+                <div class="absolute bottom-3 left-3 bg-black/50 text-white text-xs font-semibold px-3 py-1 rounded-lg">
+                    TEA
+                </div>
+            </div>
+
+            <div class="p-4">
+                <div class="text-xl font-bold text-gray-900">Tea</div>
+                <div class="text-sm text-gray-500 mt-1">Honey</div>
+
+                <div class="flex items-center justify-between mt-4">
+                    <div class="text-[#7132CA] text-xl font-bold">Rp2.75</div>
+
+                    <button class="w-10 h-10 flex items-center justify-center rounded-full bg-gray-100">
+                        <span class="text-2xl text-[#7132CA]">+</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fixed bottom-0 left-0 w-full z-50">
+        <div class="p-5 bg-white rounded-t-3xl shadow-xl inset-shadow-2xs ">
+        <div class="flex items-center justify-between mb-3">
+            <div class="flex items-center gap-2">
+                <img src="bill.svg" class="w-5 h-5">
+                <span class="text-lg font-medium text-[#7132CA]">Current Order</span>
+            </div>
+
+            <div class="text-lg font-semibold">3 Items</div>
+        </div>
+
+        <div class="w-full h-[1px] bg-gray-200 mb-4"></div>
+
+        <div class="flex items-center justify-between">
+            <div>
+                <div class="text-xs font-bold text-gray-500 tracking-widest">TOTAL</div>
+                <div class="text-3xl font-extrabold">Rp13.50</div>
+            </div>
+
+            <button class="flex items-center justify-between bg-[#7132CA] text-white px-6 py-4 rounded-2xl w-48 shadow-md">
+                <span class="text-lg font-bold">Order</span>
+                <span class="bg-[#ffffff4d] text-white px-3 py-1 rounded-xl text-sm font-semibold">
+                    Rp13.50
+                </span>
+            </button>
+        </div>
+    </div>
+    </div>
+</body>
+</html>

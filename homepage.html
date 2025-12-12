@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Bean Brew Coffee/homepage</title>
+    <style type="text/tailwindcss">
+        @theme {
+            --font-display: 'Open Sans';
+        }
+    </style>
+</head>
+
+<body class="bg-[#fffcff]">
+    <div>
+    <nav class="w-full h-20 bg-white shadow-md p-4 flex items-center gap-4">
+        <div class="h-10 w-10 shrink-0 rounded-full bg-orange-400 flex items-center justify-center text-white font-bold text-lg">
+            <img src="profile.png" alt="profile">
+        </div>
+        <div class="w-full flex justify-between">
+            <div class="flex flex-col">
+                <div class="text-xs">Cikarang</div>
+                <div href="#" class="text-600 font-bold">Muhammad Haris Amin</div>
+            </div>
+            <div class="flex h-8 w-8 shrink-0 rounded-full bg-gray-200 items-center justify-center">
+                <img src="bell.png" alt="bell" class="h-6 w-6 items-center opacity-70">
+            </div>
+        </div>
+    </nav>
+
+    <div class="p-5">
+        <div class="text-3xl font-bold">Good Morning, Haris</div>
+        <div class="text-md font-light opacity-50">Ready to brew some magic?</div>
+    </div>
+    </div>
+
+    <div class="pl-5 pr-5">
+        <div class="pb-3 font-extrabold">ACTION</div>
+        <div class="p-6 bg-[#C47BE4] rounded-xl h-34 shadow-lg flex justify-between items-center">
+            <div class="justify-center flex flex-col">
+                <div class="text-xl text-white font-bold">New Order</div>
+                <div class="pt-3 text-sx text-white opacity-75">Start a new transaction</div>
+            </div>
+
+            <div class="flex h-20 w-18 rounded-3xl bg-gray-300/50 items-center justify-center">
+                <img src="cash-register.png" alt="cash-register" class="h-12 w-10 items-center brighness-0 invert ">
+            </div>
+        </div>
+    </div>
+
+    <div class="grid grid-cols-2 gap-4 pl-5 pr-5 pt-5">
+        <div class="p-5 bg-white rounded-xl shadow-sm">
+            <div class="h-10 w-10 rounded-xl bg bg-orange-300 flex flex-center items-center justify-center mb-3">
+                <img src="history.svg" class="w-6 h-6 fill-[#f29129]">
+            </div>
+        <div class="text-xl font-bold">History</div>
+        <div class="text-gray-400">View Past Order</div>
+        </div>
+
+        <div class="p-5 bg-white rounded-xl shadow-sm">
+            <div class="h-10 w-10 rounded-xl bg bg-purple-300 flex flex-center items-center justify-center mb-3">
+                <img src="menu.svg" class="w-6 h-6">
+            </div>
+        <div class="text-xl font-bold">Menu</div>
+        <div class="text-gray-400">Update Items</div>
+        </div>
+
+        <div class="p-5 bg-white rounded-xl shadow-sm">
+            <div class="h-10 w-10 rounded-xl bg bg-blue-300 flex flex-center items-center justify-center mb-3">
+                <img src="reports.svg" class="w-6 h-6">
+            </div>
+        <div class="text-xl font-bold">Reports</div>
+        <div class="text-gray-400">Sales Analytics</div>
+        </div>
+
+        <div class="p-5 bg-white rounded-xl shadow-sm">
+            <div class="h-10 w-10 rounded-xl bg bg-red-300 flex flex-center items-center justify-center mb-3">
+                <img src="inventory.svg" class="w-6 h-6">
+            </div>
+        <div class="text-xl font-bold">Inventory</div>
+        <div class="text-gray-400">3 Low Stock</div>
+        </div>
+    </div>
+
+    <div class="flex justify-between">
+        <div class="p-5 text-lg font-extrabold">Recent Activity</div>
+        <div class="p-5 text-md text-[#C47BE4] font-extrabold">View All</div>
+    </div>
+
+    <div class="flex pl-5 pr-5 pb-3">
+        <div>
+            <div class="flex h-15 w-15 rounded-full bg-gray-300/50 items-center justify-center">
+                <img src="mug.svg" class="h-7 w-7 items-center opacity-40">
+            </div>
+        </div>
+
+        <div class="flex w-full pl-3 justify-between">
+            <div>
+                <div class="text-lg font-semibold">#5402 Order</div>
+                <div class="text-md text-gray-400">2 item - Takeaway</div>
+            </div>
+            
+            <div class="text-right">
+                <div class="text-lg font-semibold">Rp 20</div>
+                <div class="text-md text-gray-400">3m ago</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="flex pl-5 pr-5 pb-3">
+        <div>
+            <div class="flex h-15 w-15 rounded-full bg-gray-300/50 items-center justify-center">
+                <img src="french-fries.svg" class="h-7 w-7 items-center opacity-40">
+            </div>
+        </div>
+
+        <div class="flex w-full pl-3 justify-between">
+            <div>
+                <div class="text-lg font-semibold">#6022 Order</div>
+                <div class="text-md text-gray-400">1 item - Dine-in</div>
+            </div>
+            
+            <div class="text-right">
+                <div class="text-lg font-semibold">Rp 75</div>
+                <div class="text-md text-gray-400">25m ago</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="flex pl-5 pr-5 pb-3">
+        <div>
+            <div class="flex h-15 w-15 rounded-full bg-gray-300/50 items-center justify-center">
+                <img src="mug.svg" class="h-7 w-7 items-center opacity-40">
+            </div>
+        </div>
+
+        <div class="flex w-full pl-3 justify-between">
+            <div>
+                <div class="text-lg font-semibold">#1299 Order</div>
+                <div class="text-md text-gray-400">3 item - Takeaway</div>
+            </div>
+            
+            <div class="text-right">
+                <div class="text-lg font-semibold">Rp 75</div>
+                <div class="text-md text-gray-400">45m ago</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

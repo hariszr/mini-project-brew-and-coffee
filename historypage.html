@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <title>Bean Brew Coffee/history</title>
+    <title>history/Bean Brew Coffee</title>
     <style type="text/tailwindcss">
         @theme {
             --font-display: 'Open Sans';
@@ -13,17 +13,18 @@
     </style>
 </head>
 <body class="bg-[#fffcff]">
+    <!-- navbar -->
     <div>
         <nav class="pr-5 pl-5 flex items-center justify-between">
-            <div class="">
+            <a href="homepage.html" class="inline-flex items-center justify-center w-8 h-8 rounded-full hover:bg-gray-300 active:bg-gray-300 transition">
                 <img src="back.svg" class="w-full h-5 Start">
-            </div>
+            </a>
 
             <div class="h-20 bg-white p-5 items-center justify-center">
                 <div class="text-xl font-bold items-center justify-center">Order History</div>
             </div>
 
-            <div class="">
+            <div class="inline-flex items-center justify-center w-8 h-8 rounded-full hover:bg-gray-300 active:bg-gray-300 transition duration-200">
                 <img src="calendar.svg" class="w-full h-5 Start">
             </div>
         </nav>
@@ -42,6 +43,7 @@
         </div>
     </div>
 
+    <!-- filter -->
     <div class="p-5 flex whitespace-nowrap overflow-x-auto gap-3 items-center">
         <div class="rounded-full bg-[#7132CA] shadow-sm w-16 h-9 flex shrink-0 text-center text-white items-center justify-center">
             All</div>
@@ -53,12 +55,13 @@
             Voided</div>
     </div>
 
+    <!-- sort day -->
     <div class="flex justify-between">
         <div class="pr-5 pl-5 pt-3 text-sm text-gray-500 font-bold">Today</div>
     </div>
-
+    <!-- History list -->
     <div class="pl-5 pr-5 pt-1">
-        <div class="flex rounded-2xl h-20 w-full bg-white shadow-md">
+        <div class="flex rounded-2xl h-20 w-full bg-white shadow-md hover:shadow-lg hover:-translate-y-[1px]">
             <div class="pl-5 pr-5 flex items-center">
                 <div class="flex bg-green-400 w-16 h-16 rounded-full items-center justify-center">
                     <img src="check.svg" class="w-7 h-7 items-center">
@@ -88,7 +91,7 @@
     </div>
     
     <div class="pt-3 pl-5 pr-5">
-        <div class="flex rounded-2xl h-20 w-full bg-white shadow-md">
+        <div class="flex rounded-2xl h-20 w-full bg-white shadow-md hover:shadow-lg hover:-translate-y-[1px]">
             <div class="pl-5 pr-5 flex items-center">
                 <div class="flex bg-green-400 w-16 h-16 rounded-full items-center justify-center">
                     <img src="check.svg" class="w-7 h-7 items-center">
@@ -118,7 +121,7 @@
     </div>
 
     <div class="pt-3 pl-5 pr-5">
-        <div class="flex rounded-2xl h-20 w-full bg-white shadow-md">
+        <div class="flex rounded-2xl h-20 w-full bg-white shadow-md hover:shadow-lg hover:-translate-y-[1px]">
             <div class="pl-5 pr-5 flex items-center">
                 <div class="flex bg-green-400 w-16 h-16 rounded-full items-center justify-center">
                     <img src="check.svg" class="w-7 h-7 items-center">
@@ -152,7 +155,7 @@
     </div>
 
     <div class="pl-5 pr-5 pt-1">
-        <div class="flex rounded-2xl h-20 w-full bg-white shadow-md">
+        <div class="flex rounded-2xl h-20 w-full bg-white shadow-md hover:shadow-lg hover:-translate-y-[1px]">
             <div class="pl-5 pr-5 flex items-center">
                 <div class="flex bg-orange-300 w-16 h-16 rounded-full items-center justify-center">
                     <img src="reverse.svg" class="w-7 h-7 items-center">
@@ -182,7 +185,7 @@
     </div>
 
     <div class="pt-3 pl-5 pr-5">
-        <div class="flex rounded-2xl h-20 w-full bg-white shadow-md">
+        <div class="flex rounded-2xl h-20 w-full bg-white shadow-md hover:shadow-lg hover:-translate-y-[1px]">
             <div class="pl-5 pr-5 flex items-center">
                 <div class="flex bg-green-400 w-16 h-16 rounded-full items-center justify-center">
                     <img src="check.svg" class="w-7 h-7 items-center">

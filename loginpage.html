@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <title>Bean Brew Coffee/login</title>
+    <title>login/Bean Brew Coffee</title>
     <style type="text/tailwindcss">
         @theme {
             --font-display: 'Open Sans';
@@ -13,25 +13,29 @@
     </style>
 </head>
 <body class="bg-[#fffcff]">
+    <!-- nav bar logo & name -->
     <div>
         <nav class="w-full h-20 bg-white shadow-md p-4 flex items-center justify-center">
             <div class="flex h-10 w-10 items-center justify-center">
                 <img src="mug.svg" class="h-6 w-6 items-center fill-[#C47BE4]">
             </div>
-            <div class="font-bold">Bean Brew Coffee</div>
+            <h1 class="font-bold">Bean Brew Coffee</h1>
         </nav>
     </div>
-
-    <div class="p-5 w-full aspect-video overflow-hidden">
-        <img src="coffee.jpg" class="w-full h-full object-cover rounded-2xl">
+    <!-- picture conffee -->
+    <div class="p-5 max-w-lg mx-auto">
+        <div class="aspect-video overflow-hidden rounded-2xl hover:scale-[1.02] active:scale-[0.98] 
+                transition-transform duration-300 cursor-pointer">
+            <img src="coffee.jpg" class="w-full h-full object-cover">
+        </div>
     </div>
 
     <div class="pl-5 pr-5 text-center">
-        <div class="text-3xl font-bold justify-center items-center">Good Morning</div>
-        <div class="text-md font-light opacity-50 justify-center items-center">Please, Sign in first to order</div>
+        <h1 class="text-3xl font-bold justify-center items-center">Good Morning</h1>
+        <h5 class="text-md font-light opacity-50 justify-center items-center">Please, Sign in first to order</h5>
     </div>
-
-    <div class="p-5 space-y-4">
+    <!-- textbox email & password -->
+    <div class="p-5 space-y-4 max-w-lg mx-auto">
         <div class="flex flex-col">
             <label class="text-sm font-medium text-gray-600 mb-1">Customer ID or Email</label>
             <input 
@@ -48,15 +52,17 @@
                 placeholder="••••••••">
         </div>
     </div>
-
-    <div class="pl-5 pr-5">
-        <button class="w-full bg-[#C47BE4] text-white py-2 rounded-xl text-lg font-semibold hover:bg-[#7132CA] transition">
+    <!-- button logo -->
+    <div class="pl-5 pr-5 max-w-lg mx-auto">
+        <a href ="homepage.html"
+         class="block w-full bg-[#7132CA] text-white py-2 rounded-xl text-lg font-semibold 
+              hover:bg-[#C47BE4] transition text-center">
             Log In
-        </button>
+        </a>
     </div>
-
+    
     <div class="p-5 text-center">
-        <div class="text-md font-normal opacity-50 justify-center items-center">Forgot password?</div>
+        <h4 class="text-md font-normal opacity-50 justify-center items-center">Forgot password?</h4>
     </div>
     
 </body>

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <title>Bean Brew Coffee/home</title>
+    <title>home/Bean Brew Coffee</title>
     <style type="text/tailwindcss">
         @theme {
             --font-display: 'Open Sans';
@@ -14,6 +14,7 @@
 </head>
 
 <body class="bg-[#fffcff]">
+    <!-- navbar profile -->
     <div>
     <nav class="w-full h-20 bg-white shadow-md p-4 flex items-center gap-4">
         <div class="h-10 w-10 shrink-0 rounded-full bg-orange-400 flex items-center justify-center text-white font-bold text-lg">
@@ -29,16 +30,16 @@
             </div>
         </div>
     </nav>
-
+    <!-- Greetings -->
     <div class="p-5">
         <div class="text-3xl font-bold">Good Morning, Haris</div>
         <div class="text-md font-light opacity-50">Ready to brew some magic?</div>
     </div>
     </div>
-
+    <!-- Menu Order -->
     <div class="pl-5 pr-5">
         <div class="pb-3 font-extrabold">ACTION</div>
-        <div class="p-6 bg-[#C47BE4] rounded-xl h-34 shadow-lg flex justify-between items-center">
+        <a href="menupage.html" class="p-6 bg-[#C47BE4] rounded-xl h-34 shadow-lg flex justify-between items-center">
             <div class="justify-center flex flex-col">
                 <div class="text-xl text-white font-bold">New Order</div>
                 <div class="pt-3 text-sx text-white opacity-75">Start a new transaction</div>
@@ -47,17 +48,17 @@
             <div class="flex h-20 w-18 rounded-3xl bg-gray-300/50 items-center justify-center">
                 <img src="cash-register.png" alt="cash-register" class="h-12 w-10 items-center brighness-0 invert ">
             </div>
-        </div>
+        </a>
     </div>
-
+    <!-- 4 menu utama -->
     <div class="grid grid-cols-2 gap-4 pl-5 pr-5 pt-5">
-        <div class="p-5 bg-white rounded-xl shadow-sm">
+        <a href="historypage.html" class="p-5 bg-white rounded-xl shadow-sm">
             <div class="h-10 w-10 rounded-xl bg bg-orange-300 flex flex-center items-center justify-center mb-3">
                 <img src="history.svg" class="w-6 h-6 fill-[#f29129]">
             </div>
         <div class="text-xl font-bold">History</div>
         <div class="text-gray-400">View Past Order</div>
-        </div>
+        </a>
 
         <div class="p-5 bg-white rounded-xl shadow-sm">
             <div class="h-10 w-10 rounded-xl bg bg-purple-300 flex flex-center items-center justify-center mb-3">
@@ -83,7 +84,7 @@
         <div class="text-gray-400">3 Low Stock</div>
         </div>
     </div>
-
+    <!-- Recent -->
     <div class="flex justify-between">
         <div class="p-5 text-lg font-extrabold">Recent Activity</div>
         <div class="p-5 text-md text-[#C47BE4] font-extrabold">View All</div>

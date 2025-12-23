@@ -56,9 +56,19 @@
           <!-- <div class="pb-3 font-extrabold">ACTION</div> -->
           <a
             href="menupage.html"
-            class="p-6 rounded-xl h-64 shadow-lg flex justify-between items-center bg-[url('coffee-6362598_1920.jpg')] bg-cover bg-center relative overflow-hidden"
-          >
+            class="p-6 rounded-xl h-64 shadow-lg flex justify-between items-center bg-[url('coffee-6362598_1920.jpg')] bg-cover bg-center relative overflow-hidden
+            group
+            hover:scale-[1.02]
+            transition-all duration-300 ease-out"
+            >
             <div class="absolute inset-0 bg-black/30 rounded-xl"></div>
+            
+            <div
+              class="absolute inset-0
+              bg-white/0
+              transition-opacity duration-300
+              group-hover:bg-white/15"
+            ></div>
 
             <div class="relative z-10 flex flex-col justify-center">
               <h1 class="text-xl text-white font-bold">New Order</h1>
@@ -82,13 +92,23 @@
         <div class="grid grid-cols-2 gap-4 pl-5 pr-5 pt-5">
           <a
             href="historypage.html"
-            class="relative h-80 p-5 rounded-xl shadow-sm overflow-hidden"
+            class="relative h-80 p-5 rounded-xl shadow-sm overflow-hidden
+            group
+            hover:scale-[1.02]
+            transition-all duration-300 ease-out"
             >
 
           <div
           class="absolute inset-0 bg-[url('2151899225.jpg')] bg-cover bg-center scale-x-[-1]"></div>
 
           <div class="absolute inset-0 bg-black/30"></div>
+
+          <div
+            class="absolute inset-0
+            bg-white/0
+            transition-opacity duration-300
+            group-hover:bg-white/15"
+          ></div>
 
           <div class="relative z-10">
             <h1 class="text-xl text-white font-bold">History</h1>
@@ -98,13 +118,23 @@
 
           <a
             href="menupage.html"
-            class="relative h-80 p-5 rounded-xl shadow-sm overflow-hidden"
+            class="relative h-80 p-5 rounded-xl shadow-sm overflow-hidden
+            group hover:scale-[1.02]
+            transition-all duration-300"
             >
 
           <div
           class="absolute inset-0 bg-[url('29204.jpg')] bg-cover bg-center"></div>
 
+
           <div class="absolute inset-0 bg-black/10"></div>
+
+          <div
+            class="absolute inset-0
+            bg-white/0
+            transition-opacity duration-300
+            group-hover:bg-white/15"
+          ></div>
 
           <div class="relative z-10">
             <h1 class="text-xl text-white font-bold">Menu</h1>
@@ -131,7 +161,7 @@
         <!-- Recent -->
         <div class="flex justify-between">
           <h1 class="p-5 text-lg font-extrabold">Recent Activity</h1>
-          <h2 class="p-5 text-md text-[#C47BE4] font-extrabold">View All</h2>
+          <h2 class="p-5 text-md text-[#7132CA] font-extrabold">View All</h2>
         </div>
 
         <div class="flex pl-5 pr-5 pb-3">

@@ -1,6 +1,8 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import LoginPage from "./pages/LoginPage.tsx"
 import HomePage from "./pages/HomePage.tsx"
+// import MenuPage from "./pages/MenuPage.tsx"
+// import HistoryPage from "./pages/HistoryPage.tsx"
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
@@ -11,6 +13,8 @@ function App2() {
     <Routes>
       <Route path="/" element={<LoginPage/>} />
       <Route path="/home" element={<HomePage/>} />
+      <Route path="/menu" element={<HomePage/>} />
+      <Route path="/history" element={<HomePage/>} />
       </Routes>
       </BrowserRouter>
   )
